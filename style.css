@@ -1,8 +1,20 @@
-melhorias
-
-.titulo-principal {
-    padding-left: 20px;
+header {
+    background: #bbbbbb;   
+    padding: 20px;
 }
+
+.caixa {
+    position:relative;
+    margin: 30px;
+
+}
+    
+nav li {
+    display: inline;
+    right: 0px;
+    
+}
+
 
 #banner{
     width: 100%;
