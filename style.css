@@ -1,11 +1,11 @@
 header {
-    background: #BBBBBB;
-    padding: 20px 0;
+    background: #faf8f8;
+    padding: 30px ;
 }
 
 .caixa {
     position: relative;
-    width: 940px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -13,10 +13,9 @@ nav {
     position: absolute;
     top: 110px;
     right: 0;
-    
 }
 
-nav li {
+.navegacao li {
     display: inline;
     margin: 0 0 0 15px;
 }
@@ -24,53 +23,88 @@ nav li {
 nav a {
     text-transform: uppercase;
     color: #000000;
-    font-weight: bold;
-    font-size: 22px;
     text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
 }
 
+nav a:hover {
+    color: #9da097;
+}
 
 #banner{
     width: 100%;
+    position: relative;
+    text-align: center;   
 }
 
 .principal {
-    background: #cccccc;
-    padding: 30px;
+    margin: 0px;
+    top: 10px;
+    left: 10px;
+    padding: 60px;
+    background-color: #faf8f8;
 }
 
-.titulo-centralizado {
+h2 {
+    font-size: 35px;
+    color: #0f0f0f;
     text-align: center;
 }
 
-p {
-    text-align: center;       
+.principal  p {
+    text-align: center;
 }
 
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: #ff0000;    
-}
-
-.itens {
-    font-style: italic;
+h3 {
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
 }
 
 .beneficios {
-    background: #ffffff;
-    padding: 20px;
+    background: url(beneficios.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
 }
 
- .caracteristicas{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.caracteristicas {
+    font-size: 25px;
+    margin: 35px;
+    padding: 10px;
+}
+
+.caracteristicas li {
+    margin: 25px;
+    color: #ffffff;
+    
+}
+
+.beneficios {
+    position: relative;
+    padding: 30px;
+    
 }
 
 .imagembeneficios {
-    width: 50%;
+    width: 530px;
+    position: relative;
+    top: 90px;
+    
+    
+    
+    
+}
+
+footer {
+    background: #000000;
+    text-align: center;
+    padding: 40px;
+}
+
+.copyright {
+    color: #f5f1f1;
+    font-size: 13px;
+    margin: 20px 0 0;  
 }
