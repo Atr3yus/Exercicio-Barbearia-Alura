@@ -2,6 +2,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*Pagina index "Home"*/
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -36,6 +38,8 @@ nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
+
+/*pagina "Produtos"*/
 
 .produtos {
     width: 940px;
@@ -83,6 +87,8 @@ nav a:hover {
     margin-top: 10px;
 }
 
+/*pagina "Contato"*/
+
 form {
     padding: 20px
 }
@@ -103,10 +109,6 @@ footer {
     color: #ffffff;
     font-size: 13px;
     margin: 20px 0 0;
-}
-
-main {
-   
 }
 
 form {
@@ -279,6 +281,16 @@ td, th {
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
         text-align: center;
+    }
+
+    .produtos li {
+        display: block;
+        margin: 5%;
+    }
+
+    .enviar {
+        width: 70%;
+        margin: 2.5em;
     }
      
 }
