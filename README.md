@@ -2,4 +2,3 @@
 
 Exercicio de criação de pagina web utilizando HTML e CSS, em nivel basico.
 
-Ainda em desenvolvimento, estudo diario.
